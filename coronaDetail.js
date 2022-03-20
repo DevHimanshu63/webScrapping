@@ -14,6 +14,7 @@ else{
 
 function handlehtml(html){
 
+
     let selecTool=Cheerio.load(html);
       
     let coronaStats=selecTool(".maincounter-number")
